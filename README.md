@@ -4,7 +4,6 @@ python3 written to make combining video files mre user friendly
 
 
 ### How to run:
-For 2D functions, in terminal/cmd prompt, execute 'run2d.py' with python 3:
 ```bash
 python3 mp4_combine.py
 ```
