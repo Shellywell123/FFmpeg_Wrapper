@@ -1,7 +1,6 @@
-# FFMEP_Wrapper
+# FFmepg_Wrapper
 
-python3 written to make combining video files mre user friendly
-
+Wrapper written in python3 written to make concatenating video files mre user friendly :)
 
 ### How to run:
 ```bash
