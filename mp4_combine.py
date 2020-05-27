@@ -12,15 +12,11 @@ comb_flie_name = input('what do you want to call the combined file (dont foget .
 n = len(videos.split(','))
 
 current_dir = os.getcwd()
-#print(current_dir)
 current_dir = current_dir.replace(' ','\ ')+'/'
 
 filesinfo = ''
 for m in range(0,n):
     filesinfo = filesinfo +' -i '+current_dir+ videos.split(',')[m]
    
-#currently does 2 mp4 files with video and audio
-
 final_os_command = 'ffmpeg {} -filter_complex concat=n={}:v=1:a=1 -f MOV -y {}'.format(filesinfo,n,comb_flie_name)
-print(final_os_command)
 os.system(final_os_command)

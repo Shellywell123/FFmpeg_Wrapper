@@ -23,3 +23,4 @@ After that the program will then ask you to give a name for the combined mp4 fil
 what do you want to call the combined file (dont foget .mp4):
 >> combinedfile.mp4
 ```
+The program should then make you a new mp4 file in the current diretory out of the chosen ones.
