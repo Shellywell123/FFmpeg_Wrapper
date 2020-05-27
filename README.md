@@ -1,4 +1,4 @@
-# FFmepg_Wrapper
+# FFmpeg_Wrapper
 
 Wrapper written in python3 written to make concatenating video files mre user friendly :)
 
