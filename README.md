@@ -20,7 +20,7 @@ which files do you want to combine (seperate with comma):
 ```
 After that the program will then ask you to give a name for the combined mp4 file, which will then be saved into your current directory.
 ```bash
-what do you want to call the combined file (dont foget .mp4):
+what do you want to call the combined file (dont forget .mp4):
 >> combinedfile.mp4
 ```
 The program should then make you a new mp4 file in the current diretory out of the chosen ones.

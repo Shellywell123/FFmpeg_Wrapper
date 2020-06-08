@@ -7,7 +7,7 @@ for f in files:
         print(' - '+f)
 
 videos = input('which files do you want to combine (seperate with comma):\n')
-comb_flie_name = input('what do you want to call the combined file (dont foget .mp4):\n')
+comb_flie_name = input('what do you want to call the combined file (dont forget .mp4):\n')
 
 n = len(videos.split(','))
 
